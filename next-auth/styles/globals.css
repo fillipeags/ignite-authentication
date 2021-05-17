@@ -4,13 +4,18 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .main-body {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  justify-content: flex-start;
+
   flex-direction: column;
 }
 
@@ -46,6 +51,19 @@ body {
 
 .main-body button:hover {
   opacity: 0.8;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  color: #f06414;
+
+  font-size: 3rem;
+}
+
+.logo span {
+  color: #f06414;
+  font-size: 3rem;
 }
 
 a {
